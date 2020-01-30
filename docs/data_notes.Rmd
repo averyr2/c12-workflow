@@ -1,0 +1,12 @@
+---
+title: "Data Notes"
+output: html_notebook
+---
+
+Here is the overall [data download site](https://data-downloads.evictionlab.org). 
+
+Log of variable descriptions can be found in the `DATA_DICTIONARY.txt` doc in this folder. 
+
+Here is the proper citation for the data:
+
+"This research uses data from The Eviction Lab at Princeton University, a project directed by Matthew Desmond and designed by Ashley Gromis, Lavar Edmonds, James Hendrickson, Katie Krywokulski, Lillian Leung, and Adam Porton. The Eviction Lab is funded by the JPB, Gates, and Ford Foundations as well as the Chan Zuckerberg Initiative. More information is found at evictionlab.org."
