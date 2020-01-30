@@ -1,0 +1,37 @@
+---
+title: South Caroline Evictions EDA
+author: Avery Rogers
+date: "`r Sys.Date()`"
+output: 
+  github_document:
+    toc: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r message=FALSE, warning=FALSE}
+# Libraries
+library(tidyverse)
+
+# Parameters
+sc_evictions <- here::here("data/sc_cities.rds")
+
+#===============================================================================
+
+
+```
+
+## City with Most Evictions
+
+```{r}
+sc_evictions %>% 
+  read_rds() %>% 
+  arrange(desc(evictions))
+```
+
+North Charleston had the most evictions, 3,660 of them. 
+
+
+
